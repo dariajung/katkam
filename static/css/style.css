@@ -1,0 +1,54 @@
+@import url(http://fonts.googleapis.com/css?family=Vollkorn);
+
+@import url(http://fonts.googleapis.com/css?family=Megrim);
+body {
+  background: url("/static/imgs/pat.png") repeat;
+  font-family: 'Vollkorn', serif;
+  margin: 1em 0 4em;
+  font-size: 16px;
+}
+body h1 {
+  font-family: 'Megrim', cursive;
+  text-transform: uppercase;
+  color: #3C81B5;
+  font-size: 3em;
+  margin: .4em auto;
+}
+body p {
+  font-size: 1em;
+  line-height: 1.5em;
+}
+body .kam p {
+  margin: 1.5em auto;
+  color: #D5D5D5;
+}
+body .kk {
+  margin: 3em auto;
+}
+body .kk img {
+  width: 250px;
+  border-radius: 999px;
+}
+body .feed-wrapper {
+  margin: 0 auto;
+  width: 640px;
+  height: 480px;
+  text-align: center;
+}
+body .feed-wrapper .feed {
+  background: #fff;
+  width: 100%;
+  height: 100%;
+}
+hr {
+  width: 75px;
+  margin: .5em auto;
+  text-align: center;
+}
+.l-width-5 {
+  width: 650px;
+  margin: 0 auto;
+}
+.center {
+  text-align: center;
+}
